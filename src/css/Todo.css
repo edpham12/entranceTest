@@ -1,0 +1,145 @@
+    .container{
+      margin:5%;
+    }
+    .taskContent {
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: middle;
+    width: 49%;
+    height: 680px;
+  }
+  
+  .taskContent h1 {
+    text-align: center;
+  }
+  
+  .taskContent textarea {
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .taskContent input {
+    width: 90%;
+    margin-left: 5%;
+    opacity: 0.6;
+  }
+  
+  .taskContent h4 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .smtextContent {
+    display: inline-block;
+    width: 40%;
+    margin-left: 27.13px;
+  }
+  
+  .smtextContent h4 {
+    margin-left: 0;
+  }
+  .smtextContent .Priority{
+    margin-left:20%;
+  }
+  
+  .smtextContent h5 {
+    border-radius: 1px solid black;
+  }
+  
+  .buttonA button {
+    height: 35px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+    background-color: rgb(112, 175, 99);
+    color: white;
+    border-radius: 10px;
+    border: 0 solid white;
+  }
+  
+  [type="date"] {
+    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+  }
+  
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0.5;
+  }
+  
+  .smtextContent input {
+    border: 1px solid #000000;
+    background-color: #fff;
+    padding: 3px 5px;
+    width: 80%;
+    margin-left: 0;
+  }
+  
+  .select-style {
+    margin-left:20%;
+    border: 1px solid rgb(121, 121, 121);
+    width: 95%;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fdfcfc no-repeat 90% 50%;
+    
+  }
+  
+  .select-style select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+  }
+  
+  .select-style select:focus {
+    outline: none;
+  }
+  
+  .tasklist {
+    border: 1px solid black;
+    margin: 5%;
+    height: 55px;
+  }
+  
+  #taskName {
+    width: 0;
+  }
+  
+  .tasklist label {
+    margin-left: 5%;
+  }
+  
+  .tasklist-name {
+    width: 50%;
+    padding-top: 15px;
+  }
+  
+  .checkButton {
+    margin-right: 5%;
+    padding-top: 10px;
+    float: right;
+  }
+  
+  .tasklist-name {
+    padding-top: 15px;
+    display: inline-block;
+  }
+  .checkButton button{
+    border-radius: 5px;
+    color:white;
+    padding: 5px;
+    border: 0.5px solid #ffffff;
+  }
+  #buttonDone{
+    background-color:rgb(81,186,209);
+  }
+  #buttonRemove{
+    background-color:rgb(202,92,84);
+  }
